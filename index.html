@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="todo">
+        <h2>To-do List</h2>
+        <div class="input">
+            <input class="input-field" id="todoInput" type="text" placeholder="Enter tasks...">
+            <button class="btn" id="searchButton">Add</button>
+        </div>
+        <ul class="scroll" id="todoList">
+            <!-- Tasks will be dynamically added here -->
+        </ul>
+        <div>
+            <hr class="counter">
+            <div class="counter-container">
+                <p><span id="total-items-Display">0 items total</span></p>
+                <button id="deleteButton">Delete all</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Link to External JS File -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
